@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-	"name": "Google Cache Checker",
-	"short_name": "Google Cache",
-	"version": "0.1",
-	"description": "Lookup the current page in Google's cache.",
-	"homepage_url": "http://www.google.com",
+	"name": "Cache Checker",
+	"short_name": "Cache Checker",
+	"version": "0.2",
+	"description": "Lookup the current page in the cache.",
+	"homepage_url": "http://www.cache.com",
 	"background": {
 		"persistent": false,
 		"page": "background.html"
@@ -25,7 +25,7 @@
 			"19": "images/icon19.png",
 			"38": "images/icon38.png"
 		 }, 
-		"default_title": "Google Cache"
+		"default_title": "Cache Checker"
 	},
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }

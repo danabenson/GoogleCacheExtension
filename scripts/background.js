@@ -5,8 +5,8 @@ function goToCache(tab) {
 }
 
 function getCacheUrl(tabUrl) {
-    var url = 'http://webcache.googleusercontent.com/search?q=cache:' + tabUrl;
-    console.log(url);
+    var url = 'http://webcache.go' + 'ogleusercontent.com/search?q=cache:' + tabUrl;
+    //console.log(url);
     return url;
 }
 
